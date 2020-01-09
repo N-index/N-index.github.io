@@ -13,6 +13,7 @@
 		body {
 			width: 100%;
 			background-image: url("IMG_4761.jpg");
+			background-color: cadetblue;
 			background-repeat: no-repeat;
 			/*background: url("https://raw.githubusercontent.com/N-index/N-index.github.io/master/stock-photo-283407347.jpg") center center no-repeat;*/
 			background-size: 100%;
@@ -20,7 +21,7 @@
 		}
 
 		#content {
-			/*width: 100%;*/
+			box-sizing: border-box;
 			max-width: 50%;
 			width: 320px;
 			height: 100%;
@@ -29,13 +30,24 @@
 			background-color: rgba(200, 200, 220, 0.7);
 			border-width: 3px;
 			border-color: gray;
-			box-shadow: black;
 			border-radius: 8px;
 			padding: 15px;
+			transition-duration: 500ms;
+			overflow: hidden;
+		}
+
+		#content:hover {
+			width: 420px;
 		}
 
 		h1 {
 			color: white;
+			transition-duration: 800s;
+			transition-delay: 80ms;
+		}
+
+		h1:hover {
+			color: rgba(255, 23, 149, 0.59);
 		}
 
 		#article {
@@ -43,7 +55,9 @@
 			width: 320px;
 			text-align: center;
 			margin: 0 auto;
+
 		}
+
 
 	</style>
 </head>
