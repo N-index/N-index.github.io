@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/demo-2.css">
+    <link rel="shortcut icon" type="image/png" href="img/demo-2/favicon.png">
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <img src="img/demo-2/favicon.png" alt="trillo logo" class="logo">
+
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="Search hotels">
+            <button class="search__button">
+                <svg class="search__icon">
+                    <use xlink:href="img/demo-2/sprite.svg#icon-magnifying-glass"></use>
+                </svg>
+            </button>
+        </form>
+
+        <nav class="user-nav">
+            <div class="user-nav__icon-box">
+                <svg class="user-nav__icon">
+                    <use xlink:href="img/demo-2/sprite.svg#icon-bookmark"></use>
+                </svg>
+                <span class="user-nav__notification">7</span>
+            </div>
+
+            <div class="user-nav__icon-box">
+                <svg class="user-nav__icon">
+                    <use xlink:href="img/demo-2/sprite.svg#icon-chat"></use>
+                </svg>
+                <span class="user-nav__notification">13</span>
+            </div>
+
+            <div class="user-nav__user">
+                <img src="img/demo-2/user.jpg" alt="user.jpg" class="user-nav__user-photo">
+                <span class="user-nav__user-name">Jason</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <nav class="sidebar">
+            <ul class="side-nav">
+                <li class="side-nav__item side-nav__item--active">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/demo-2/sprite.svg#icon-home"></use>
+                        </svg>
+                        Hotel
+                    </a>
+                </li>
+
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/demo-2/sprite.svg#icon-aircraft-take-off"></use>
+                        </svg>
+                        Flight
+                    </a>
+                </li>
+
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/demo-2/sprite.svg#icon-key"></use>
+                        </svg>
+                        Car rental
+                    </a>
+                </li>
+
+                <li class="side-nav__item">
+                    <a href="#" class="side-nav__link">
+                        <svg class="side-nav__icon">
+                            <use xlink:href="img/demo-2/sprite.svg#icon-map"></use>
+                        </svg>
+                        Tours
+                    </a>
+                </li>
+            </ul>
+
+            <div class="license">@copyright 版权所有 2020</div>
+        </nav>
+        <main class="hotel-view">
+            <div class="gallery">
+                <figure class="gallery__item">
+                    <img src="img/demo-2/hotel-1.jpg" alt="hotel 1" class="gallery__photo">
+                </figure>
+                <figure class="gallery__item">
+                    <img src="img/demo-2/hotel-2.jpg" alt="hotel 2" class="gallery__photo">
+                </figure><figure class="gallery__item">
+                <img src="img/demo-2/hotel-3.jpg" alt="hotel 3" class="gallery__photo">
+            </figure>
+            </div>
+
+            <div class="overview">
+                <span class="overview__title">HOTEL LAS PALMAS</span>
+                <div class="overview__rating">
+                    <svg class="overview__rating-icon">
+                        <use xlink:href="img/demo-2/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__rating-icon">
+                        <use xlink:href="img/demo-2/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__rating-icon">
+                        <use xlink:href="img/demo-2/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__rating-icon">
+                        <use xlink:href="img/demo-2/sprite.svg#icon-star"></use>
+                    </svg>
+                    <svg class="overview__rating-icon">
+                        <use xlink:href="img/demo-2/sprite.svg#icon-star"></use>
+                    </svg>
+                </div>
+                <div class="overview__location">
+                    <svg class="overview__location-icon">
+                        <use xlink:href="img/demo-2/sprite.svg#icon-location-pin"></use>
+                    </svg>
+                    <span class="overview__location-text">
+                                Albuferia, Portugal
+                            </span>
+                </div>
+                <div class="overview__score">
+                    <span class="overview__score-number">8.6</span>
+                    <span class="overview__score-vote">429 VOTES</span>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="description">
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.</p>
+                    <p class="paragraph">Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.</p>
+                    <ul class="list">
+                        <li class="list__item">Close to bitch</li>
+                        <li class="list__item">Breakfast included</li>
+                        <li class="list__item">Free airport shuttle</li>
+                        <li class="list__item">Free wifi in all rooms</li>
+                        <li class="list__item">Air conditioning and heating</li>
+                        <li class="list__item">Pets allowed</li>
+                        <li class="list__item">We speak all languages</li>
+                        <li class="list__item">Perfect to family</li>
+                    </ul>
+                    <div class="recommend">
+                        <p class="recommend__count">
+                            Lucy and 3 other friends recommended this hotel.
+                        </p>
+                        <div class="recommend__friends">
+                            <img class="recommend__photo" src="img/demo-2/user-3.jpg" alt="user-1 photo">
+                            <img class="recommend__photo" src="img/demo-2/user-4.jpg" alt="user-2 photo">
+                            <img class="recommend__photo" src="img/demo-2/user-5.jpg" alt="user-3 photo">
+                            <img class="recommend__photo" src="img/demo-2/user-6.jpg" alt="user-4 photo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-reviews">右侧</div>
+            </div>
+
+
+        </main>
+    </div>
+</div>
+</body>
+</html>

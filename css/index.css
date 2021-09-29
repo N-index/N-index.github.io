@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root{
+    box-sizing: border-box;
+}
+a,
+a:visited,
+a:link{
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-image: url("../img/bg-1.jpg");
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    /*background: url("https://raw.githubusercontent.com/N-index/N-index.github.io/master/stock-photo-283407347.jpg") center center no-repeat;*/
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container{
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: white;
+}
+.demos{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 5px;
+}
+.demos__item{
+    height: 200px;
+    background: rgba(230, 230, 230, 0.67);
+    border-radius: 8px;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.demos__item:hover{
+    transform: translateY(-5px);
+}
+
+
